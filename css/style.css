@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body {
+font-size: 18px;
+}
+nav ul {
+    display: flex; /*横並び*/
+    justify-content: space-around; /*文字間隔*/
+    background-color: #888;
+    padding: 1.5% 5%; /*内側*/
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;  /*リンク要素の下線を消す*/
+}
+
+#top {  /*idだから＃*/
+    height: 600px;
+    background: url(../img/23229940_m.jpg) no-repeat center;
+    background-size: cover; /*指定領域いっぱいに表示*/
+    display: flex;
+    justify-content: right; /*flexbox右寄せ*/
+    align-items: center;    /*中央寄せ*/
+}
+
+.top_wrapper {
+    background-color: honeydew;
+    padding: 1.5%;
+    margin-right: 20%;
+}
+
+.top_wrapper h1{
+    font-size: 1.8rem;
+    color: rgb(1, 194, 1);
+}
+
+#service {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.section_title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(1, 194, 1);
+    margin-bottom: 5%;
+}
+
+.service_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_left img {
+    width: 80%;
+    height: auto;
+}
+
+.service_right h3{
+    font-size: 1.2rem;
+    color: rgb(1, 194, 1);
+    padding: 2.5% 0;
+}
+
+.service_right p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+#news {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.news_wrapper {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#price {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.price_wrapper table{
+    border: double rgb(1, 194, 1) 10px; /*種類・色・太さ*/
+    width: 100%;
+    text-align: center;
+}
+
+.price_wrapper table tr {
+    border: solid rgb(1, 194, 1) 3px;
+    padding: 1%;
+}
+
+.price_wrapper table th {
+    border: solid rgb(1, 194, 1) 3px;
+    padding: 1%;
+}
+
+.price_wrapper table td {
+    border: solid rgb(1, 194, 1) 3px;
+    padding: 1%;
+}
+
+#contact {
+    background: rgb(241,241,241);
+}
+
+#contact h2 {
+    padding :5% 0;
+    margin: 0;
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    line-height: 2;
+}
+
+.text {
+    padding-left: 100px;
+}
+
+input,textarea {
+    box-sizing: border-box;
+    border: solid #ddd 1px;
+    width: 60%;
+    margin-bottom: 2.5%;
+}
+
+input {
+    padding: 1%;
+}
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button_submit {
+    padding: 1.5% 5%;
+    background-color: #555;
+    margin: 5% 0;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+}
+
+#footer {
+    background-color: #444;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+}
